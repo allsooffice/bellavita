@@ -1,0 +1,559 @@
+@bellaColor: #822047;
+@kredaFont: 'Marck Script', cursive;
+//trojkaty
+@borders: 125px solid transparent;
+@border-bottom: 300px solid transparent;
+@pizza-opacity: 0.8;
+.content
+{
+   min-height: 500px;
+}
+.nav ul li:nth-child(2)
+{
+   border: 2px solid #fff;
+   background-color: rgba(255, 255, 255, 0.4);
+   color: @bellaColor;
+}
+
+.nav ul li:nth-child(2) a
+{
+   color: #fff;
+}
+
+.pizza-content
+{
+   width: 80%;
+   height: 370px;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+}
+
+.pizza-circle
+{
+   width: 600px;
+   height: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+   margin-top: -300px;
+   position: relative;
+}
+
+.pizza-slice-1
+{
+   left: 52%;
+   top: 35%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(-67.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   overflow: hidden;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-1:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-1-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(-67.5deg);
+   left: 60%;
+   top: 38%;
+   opacity: 1;
+}
+
+.pizza-slice-2
+{
+   left: 38.5%;
+   top: 48.5%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(-22.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-2:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-2-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(-22.5deg);
+   left: 41.5%;
+   top: 55%;
+   opacity: 1;
+}
+
+.pizza-slice-3
+{
+   left: 19.5%;
+   top: 48.5%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(22.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-3:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-3-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(22.5deg);
+   left: 17%;
+   top: 55%;
+   opacity: 1;
+}
+
+.pizza-slice-4
+{
+   left: 6%;
+   top: 35%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(67.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-4:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-4-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(67.5deg);
+   left: 1%;
+   top: 37%;
+   opacity: 1;
+}
+
+.pizza-slice-5
+{
+   left: 6%;
+   top: 16%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(112.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-5:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-5-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(112.5deg);
+   left: -1%;
+   top: 13%;
+   opacity: 1;
+}
+
+.pizza-slice-6
+{
+   left: 19.5%;
+   top: 2.5%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(158deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-6:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-6-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(158deg);
+   left: 17%;
+   top: -4%;
+   opacity: 1;
+}
+
+.pizza-slice-7
+{
+   left: 39%;
+   top: 2.5%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(203.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-7:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-7-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(203.5deg);
+   left: 43%;
+   top: -7%;
+   opacity: 1;
+}
+
+.pizza-slice-8
+{
+   left: 52%;
+   top: 16%;
+   position: absolute;
+	border-left: @borders;
+	border-right: @borders;
+	border-bottom: @border-bottom;
+   transform: rotate(247.5deg);
+   transition-duration: 0.5s;
+   background-image: url(../img/kawalek2.png);
+   background-repeat: no-repeat;
+   background-position: -142px 0px;
+   opacity: @pizza-opacity;
+}
+
+.pizza-slice-8:hover
+{
+   opacity: 1;
+}
+
+.pizza-slice-8-active
+{
+   transform: scale(1.1);
+   -moz-transform: scale(1.1) rotate(247.5deg);
+   left: 60%;
+   top: 12.5%;
+   opacity: 1;
+}
+
+.prev, .next
+{
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   color: white;
+   text-align: center;
+   opacity: 0.5;
+   transition-duration: 0.3s;
+}
+
+.prev:hover, .next:hover
+{
+   opacity: 1;
+   transform: scale(1.1);
+   -moz-transform: scale(1.5);
+}
+
+.prev
+{
+   left: 20%;
+   top: 20%;
+}
+
+.next
+{
+   left: 75%;
+   top: 20%;
+}
+
+.prev i, .next i
+{
+   color: white;
+   font-size: 45px;
+   cursor: pointer;
+}
+
+.pizza-info
+{
+   position: absolute;
+   left: -25%;
+   top: 12%;
+   height: 20%;
+   width: 20%;
+   height: 250px;
+   border: 1px solid #fff;
+   text-align: center;
+   -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+   -moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+   box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+   padding-top: 1%;
+}
+
+.pizza-info img
+{
+   width: 60%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.pizza-info h2
+{
+   color: #fff;
+   background-color: @bellaColor;
+   text-align: center;
+   margin: 0;
+   padding: 2%;
+   box-sizing: border-box;
+}
+
+.pizza-info h2 i:hover
+{
+   cursor: pointer;
+   opacity: 0.7;
+}
+
+.pizza-info p
+{
+   color: #fff;
+   background-color: rgba(255, 255, 255, 0.2);
+   text-align: center;
+   margin: 0;
+   padding: 2%;
+   box-sizing: border-box;
+}
+
+.pizza-list
+{
+   margin-top: 40px;
+   width: 75%;
+   min-height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 2%;
+   box-sizing: border-box;
+}
+
+.pizza-list ul li
+{
+   list-style-type: none;
+   width: 100%;
+   min-height: 120px;
+   background-color: rgba(255, 255, 255, 0.2);
+   box-sizing: border-box;
+   padding: 1%;
+   margin-bottom: 20px;
+}
+
+.pizza-list-img
+{
+   float: left;
+   width: 10%;
+   height: 100px;
+}
+
+.pizza-list-img img
+{
+   display: block;
+   width: 100%;
+   height: 100px;
+}
+
+.pizza-list-name
+{
+   float: left;
+   width: 90%;
+   height: 30px;
+   font-size: 24px;
+   box-sizing: border-box;
+   padding-left: 1%;
+}
+
+.pizza-list-compo
+{
+   float: left;
+   width: 50%;
+   min-height: 80px;
+   font-size: 19px;
+   box-sizing: border-box;
+   padding-left: 1%;
+}
+
+.pizza-list-compo span:hover
+{
+   cursor: pointer;
+}
+
+.component-disable
+{
+   opacity: 0.4;
+   text-decoration: line-through;
+}
+
+.pizza-list-compo span i
+{
+   margin: 0;
+   padding: 0;
+   opacity: 0.1;
+   transition-duration: 0.3s;
+}
+
+.pizza-list-compo span:hover i
+{
+   opacity: 1;
+}
+
+.pizza-list-price
+{
+   float: left;
+   width: 15%;
+   height: 100%;
+   font-size: 22px;
+   box-sizing: border-box;
+   text-align: center;
+   padding-top: 1%;
+}
+
+.pizza-list-cart
+{
+   float: left;
+   width: 20%;
+   height: 100%;
+   font-size: 22px;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+.add-to-cart
+{
+   width: 90%;
+   font-size: 17px;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 99999;
+}
+
+.box
+{
+   display: none;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color:  rgba(0, 0, 0, 0.5);
+   z-index: 9999;
+}
+
+.cart-info
+{
+   position: fixed;
+   left: 33%;
+   width: 33%;
+   top: 25%;
+   height: 180px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: @bellaColor;
+   border: 3px solid @bellaColor;
+   -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+   -moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+   box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+}
+
+.cart-info i
+{
+   margin-left: 94%;
+   margin-top: 2%;
+   cursor: pointer;
+}
+
+.cart-info h2
+{
+   text-align: center;
+}
+
+.cart-info h2 i
+{
+   margin: 0;
+   text-align: center;
+   cursor: auto;
+}
+
+.cart-info ol
+{
+   margin-top: 40px;
+   text-align: center;
+}
+
+.cart-info ol li
+{
+   list-style: none;
+   display: inline-block;
+   border: 1px solid #fff;
+   padding: 2%;
+   font-size: 20px;
+   transition-duration: 0.3s;
+}
+
+.cart-info ol li i
+{
+   margin: 0;
+}
+
+.cart-info ol li:hover
+{
+   background-color: #fff;
+   transition-duration: 0.3s;
+}
+
+.cart-info ol li:hover a
+{
+   color: @bellaColor;
+   transition-duration: 0.3s;
+}

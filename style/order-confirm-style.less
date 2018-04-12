@@ -1,0 +1,281 @@
+@bellaColor: #822047;
+@kredaFont: 'Walter Turncoat', cursive;
+
+.content
+{
+   margin-top: 50px;
+   min-height: 500px;
+   position: relative;
+   text-align: center;
+}
+h1
+{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   opacity: 0.9;
+}
+
+.order-cart-list
+{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.order-cart-list ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.btn
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.order-cart-list ul li
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.order-cart-list-img, .order-cart-list-img img
+{
+    width: 100px;
+    height: 100px;
+
+}
+
+.order-cart-list-center
+{
+    padding: 5px;
+    text-align: left;
+    width: 70%;
+}
+
+.order-cart-list-name
+{
+    font-size: 23px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.order-cart-list-compo
+{
+    padding: 2px;
+}
+
+.order-cart-list-price
+{
+    align-self: center;
+    font-size: 22px;
+}
+
+.order-cart-list-quantity
+{
+    display: flex;
+    align-items: center;
+}
+
+.order-cart-list-quantity p
+{
+    font-size: 22px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.order-product-cart-quantity
+{
+    width: 50px;
+    height: 35px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    border: none;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.order-delivery-sum
+{
+   margin-top: 5px;
+   text-align: right;
+   border-top: 2px solid #fff;
+   font-size: 24px;
+   padding: 15px 15px 0 15px;
+}
+
+.order-cart-sum
+{
+   text-align: right;
+   font-size: 28px;
+    font-weight: bold;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.promo
+{
+   text-align: right;
+   padding: 1%;
+   box-sizing: border-box;
+}
+
+.cart-sum
+{
+   width: 100%;
+   border-top: 2px solid #fff;
+   text-align: right;
+   font-size: 24px;
+   padding: 1%;
+   box-sizing: border-box;
+}
+
+.order-info
+{
+   width: 95%;
+    max-width: 1100px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.order-data-l, .order-data-r
+{
+   float: left;
+   width: 48%;
+   margin-right: 1%;
+}
+
+.order-data-l h3, .order-data-r h3
+{
+   background-color: @bellaColor;
+   text-align: left;
+   padding: 1%;
+   width: 100%;
+   box-sizing: border-box;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.order-data-l p, .order-data-r p
+{
+   font-size: 21px;
+   text-align: right;
+   width: 100%;
+   box-sizing: border-box;
+   padding: 3%;
+   background: rgba(255, 255, 255, 0.1);
+   margin-top: 0;
+   margin-bottom: 0;
+overflow: auto;
+}
+
+.btn
+{
+    max-width: 300px;
+   font-family: 'Marcellus SC', serif;
+}
+
+@media (max-width: 499px)
+{
+   .order-cart-list ul li
+   {
+       flex-wrap: wrap;
+
+   }
+
+   .order-cart-list-img
+   {
+     width: 30%;   
+   }
+    
+    .order-cart-list-img img
+   {
+     width: 90px;
+       height: 90px;
+   }
+
+   .order-cart-list-center
+   {
+    width: 60%;
+    padding: 4px;
+   }
+
+   .order-cart-list-price
+   {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .order-cart-list-quantity
+   {
+        display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .order-delivery-sum
+   {
+   margin-top: 5px;
+   text-align: right;
+   border-top: 2px solid #fff;
+   font-size: 18px;
+   padding-top: 5px;
+   }
+
+   .order-cart-sum
+   {
+   margin-top: 5px;
+   text-align: right;
+   font-size: 18px;
+   padding-top: 5px;
+   }
+    
+    .order-info
+    {
+       width: 95%;
+       max-width: 1100px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+
+    .order-data-l, .order-data-r
+    {
+       float: none;
+       width: 90%;
+       margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .btn{
+        width: 250px;
+    }
+    
+    .order-cart-sum{
+        font-size: 25px;
+    }
+    
+    .footer-left .newsletter-input
+    {
+        margin-top: 40px;
+    }
+    
+}

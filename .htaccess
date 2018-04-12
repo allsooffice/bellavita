@@ -1,0 +1,12 @@
+Options FollowSymLinks
+RewriteEngine On
+
+RewriteRule menu menu.php [L]
+RewriteRule zamow-teraz menu.php [L]
+RewriteRule zamow-online menu.php [L]
+RewriteRule kontakt kontakt.php [L]
+RewriteRule o-nas o_nas.php [L]
+RewriteRule galeria galeria.php [L]
+RewriteRule zamow-online menu.php [L]
+RewriteRule strona-glowna index.php [L]
+RewriteRule koszyk cart.php [L]
